@@ -1,0 +1,15 @@
+{
+  "name": "create-websocket",
+  "version": "1.0.0",
+  "description": "A websocket server written in node.js using typescript",
+  "license": "ISC",
+  "author": "Divyansh Swarnkar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b  && node dist/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^24.2.1"
+  }
+}
